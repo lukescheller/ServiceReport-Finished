@@ -1,0 +1,222 @@
+* {
+	font-family:sans-serif;
+	/*border-radius:5px;*/
+	font-weight: lighter;
+}
+
+html {
+	background-image: url('../img/restaurant1.jpg');
+	background-position: -115px;
+/*	background-size:cover;*/
+	background-size: 775px 700px;
+	background-repeat: no-repeat;
+}
+
+#cc0, #cc1,#cc2,#cc3,#cc4,#cc5 {
+	height: 15px;
+ 	width: 15px;
+  	background-color: #bbb;
+  	border-radius: 50%;
+  	display: inline-block;
+	position:relative;
+	left:5px;
+	top:3.5px;
+  	font-size:10px;
+}
+
+#submit_title {
+	border-bottom:1px solid none;
+	padding:5px;
+	margin:5px;
+	margin-bottom:-16.5px;
+}
+
+#submit_div {
+	text-align:center;
+	margin:0px auto;
+	padding:1px;
+	border-bottom:1px solid #ffc69e;
+	background-color:#ffc69e;
+	width:85%;
+	border-radius:10px;
+	margin-bottom:5px;
+}
+
+#submit_tips {
+	border-bottom:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+#submit_clockIn {
+	border-bottom:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+#overnight {
+	border-bottom:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+#submit_clockOut {
+	border-bottom:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+#submit_hourly {
+	border-bottom:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+#submit_hourly_dollar,#submit_tips_dollar {
+	width:100px;
+}
+
+#submit_comments {
+	border-bottom:1px solid black;
+	padding:5px;
+	margin:5px;
+	margin-bottom:15px;
+}
+
+#submit_comment {
+	resize:none;
+	width:35%;
+	height:50px;
+}
+
+#submit_bt {
+	width:200px;
+}
+
+#sb_cm {
+	position:relative;
+	bottom:25px;
+}
+
+#submit_bt_div {
+	border:1px solid none;
+	padding:5px;
+	margin:5px;
+}
+
+#custom_bt_div {
+	border:1px solid none;
+	padding:5px;
+	margin:5px;
+}
+
+#custom_bt {
+	width:100%;
+}
+
+#custom_bt a {
+	text-decoration:none;
+	color:black;
+}
+
+#custom_bt a:visited {
+	text-decoration:none;
+	color:black;
+}
+
+#custom_day_select {
+	width:80px;
+}
+
+#custom_month_select {
+	width:80px;
+}
+
+#data_bt {
+	width:200px;
+}
+
+#data_bt_div {
+	border:1px solid none;
+	padding:5px;
+	margin:5px;
+}
+
+#data_bt a {
+	text-decoration:none;
+	color:black;
+}
+
+#data_bt a:visited {
+	text-decoration:none;
+	color:black;
+}
+
+#tips_alert,#clockIn_alert,#yesno_alert,#clockOut_alert,#hourlywage_alert {
+	color:red;
+	display:none;
+}
+
+/* END SUBMIT CSS */
+
+/*CUSTOM ENTRY PAGE CSS*/
+
+#custom_date {
+	border-bottom:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+
+
+
+/* END CUSTOM ENTRY CSS */
+
+#data_div {
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+/* END DATA DIV */
+
+#compilation_div {
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+/* END COMPILATION DIV */
+
+#footer {
+	border:1px solid none;
+	margin:5px;
+	padding:5px;
+	font-size:10px;
+}
+
+#center {
+	margin-bottom:37.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

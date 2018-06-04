@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Custom Entry</title>
+	<link rel='stylesheet' href='css/mobileCalc2_custom_css.css'>
+	<script type="text/javascript" src='jquery.min.js'></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#cc0').click(function(){
+				alert('Accuracy helps us store your data in the correct order!');
+			});
+			$('#cc1').click(function(){
+				alert('e.g: 123.45\nSpecial characters and extra decimal points won\'t be submitted.');
+			});
+			$('#cc2').click(function(){
+				alert('Keep in mind: Am is anything before noon, Pm is everything thereafter.');
+			});
+			$('#cc3').click(function(){
+				alert('Did your shift last into the next day?\ne.g: 10:45pm - 3:12am');
+			});
+			$('#cc4').click(function(){
+				alert('Keep in mind: Am is anything before noon, Pm is everything thereafter.');
+			});
+			$('#cc5').click(function(){
+				alert('e.g: 8.25\nSpecial characters and extra decimal points won\'t be submitted.');
+			});
+
+		});
+	</script>
+</head>
+<body>
+	
+	<div id='submit_div'>
+
+	<form action='mobileCalc2_data.html' id='submit_form'>
+
+		<div id='submit_title'>
+			<h2>Custom Entry</h2>
+		</div>
+
+		<div id='custom_date'>
+			<span>
+				Custom Date:<span id='cc0'></span><br>
+				<select id='custom_day_select'>
+					<option>Monday</option>
+					<option>Tuesday</option>
+					<option>Wednesday</option>
+					<option>Thursday</option>
+					<option>Friday</option>
+					<option>Saturday</option>
+					<option>Sunday</option>
+				</select>
+
+				<select id='custom_month_select'>
+					<option>January</option>
+					<option>February</option>
+					<option>March</option>
+					<option>April</option>
+					<option>May</option>
+					<option>June</option>
+					<option>July</option>
+					<option>August</option>
+					<option>September</option>
+					<option>October</option>
+					<option>November</option>
+					<option>December</option>
+				</select>
+
+				<select id='custom_date_select'>
+					
+				</select>
+
+				<select id='custom_year_select'>
+					
+				</select>
+
+			</span>
+		</div>
+		
+		<div id='submit_tips'>
+			<span>
+				Tips Today: <input type='text' name='submit_tips_dollar' id='submit_tips_dollar'><span id='cc1'></span>
+			</span> 
+		</div>
+
+		<div id='submit_clockIn'>
+			<span>
+				Clock-In: <select id='submit_clockIn_hour' name='submit_clockIn_hour'>
+					<option>01</option>
+					<option>02</option>
+					<option>03</option>
+					<option>04</option>
+					<option>05</option>
+					<option>06</option>
+					<option>07</option>
+					<option>08</option>
+					<option>09</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+				</select>
+
+				:
+
+				<select id='submit_clockIn_min' name='submit_clockIn_min'>
+					<option>00</option>
+					<option>01</option>
+					<option>02</option>
+					<option>03</option>
+					<option>04</option>
+					<option>05</option>
+					<option>06</option>
+					<option>07</option>
+					<option>08</option>
+					<option>09</option>
+				</select>
+
+				<select id='submit_clockIn_ampm' name='submit_clockIn_ampm'>
+					<option>Am</option>
+					<option>Pm</option>
+				</select><span id='cc2'></span>
+			</span>
+
+			<span id='clockIn_alert'>enter a clock-in</span>
+
+		</div>
+
+		<div id='overnight'>
+			Did you work an overnight?<span id='cc3'></span><br>
+			Yes<input type='radio' name='ampm' id='submit_yes' value='yes'>
+			No<input type='radio' name='ampm' id='submit_no' value='no'>
+
+			<span id='yesno_alert'>choose 1</span>
+		</div>
+
+		<div id='submit_clockOut'>
+			<span>
+				Clock-Out: <select id='submit_clockOut_hour' name='submit_clockOut_hour'>
+					<option>01</option>
+					<option>02</option>
+					<option>03</option>
+					<option>04</option>
+					<option>05</option>
+					<option>06</option>
+					<option>07</option>
+					<option>08</option>
+					<option>09</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+				</select>
+
+				:
+
+				<select id='submit_clockOut_min' name='submit_clockOut_min'>
+					<option>00</option>
+					<option>01</option>
+					<option>02</option>
+					<option>03</option>
+					<option>04</option>
+					<option>05</option>
+					<option>06</option>
+					<option>07</option>
+					<option>08</option>
+					<option>09</option>
+				</select>
+
+				<select id='submit_clockOut_ampm' name='submit_clockOut_ampm'>
+					<option>Am</option>
+					<option>Pm</option>
+				</select><span id='cc4'></span>
+			</span>
+
+			<span id='clockOut_alert'>enter a clock-out</span>
+
+		</div>
+
+		<div id='submit_hourly'>
+			<span>
+				Hourly Wage: <input type='text' id='submit_hourly_dollar' name='submit_hourly_dollar'><span id='cc5'></span>
+			</span>
+
+			<span id='hourlywage_alert'>enter an amount</span>
+		</div>
+
+		<div id='submit_comments'>
+			<span>
+				<span id='sb_cm'>Comments:</span><textarea id='submit_comment' name='submit_comment'></textarea>
+			</span>
+		</div>
+
+		<div id='submit_bt_div'>
+			<button id='submit_bt' type='submit'>Submit</button>
+		</div>
+
+	</form>
+
+	<div id='center'>
+
+		<a href='index.html'><div id='data_bt_div'>
+			<button id='data_bt'>Standard Entry</button>
+		</div></a>
+
+		<a href='mobileCalc2_data.html'><div id='data_bt_div'>
+			<button id='data_bt'>Entries</button>
+		</div></a>
+
+	</div>
+
+		<div id='footer'>
+		ServiceReport 2018
+	</div>
+
+	</div>
+
+	<!-- End Submit Entry -->		
+
+	<script src='js/mobileCalc2_custom.js'></script>
+
+</body>
+</html>

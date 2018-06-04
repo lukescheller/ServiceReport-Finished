@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Data</title>
+	<link rel='stylesheet' href='css/mobileCalc2_css.css'>
+	<script type="text/javascript" src='jquery.min.js'></script>
+	<script>
+		$(document).ready(function(){
+			// Begin Monday
+			$('#monday_button').click(function(){
+				$('#monday_data').slideToggle();
+			});
+
+			$('#mon_summary_bt').click(function(){
+				$('#mon_summary_data').slideToggle();
+			});
+
+			$('#mon_indv_bt').click(function(){
+				$('#mon_indv_entry_div').slideToggle();
+			});
+
+			//End Monday
+
+			//Begin Tuesday
+			$('#tuesday_button').click(function(){
+				$('#tuesday_data').slideToggle();
+			});
+
+			$('#tue_summary_bt').click(function(){
+				$('#tue_summary_data').slideToggle();
+			});
+
+			$('#tue_indv_bt').click(function(){
+				$('#tue_indv_entry_div').slideToggle();
+			});
+
+			//End Tuesday
+
+			//Begin Wednesday
+			$('#wednesday_button').click(function(){
+				$('#wednesday_data').slideToggle();
+			})
+
+			$('#wed_indv_bt').click(function(){
+				$('#wed_indv_entry_div').slideToggle();
+			});
+
+			$('#wed_summary_bt').click(function(){
+				$('#wed_summary_data').slideToggle();
+			});
+
+			//End Wednesday
+
+			//Begin Thursday
+			$('#thursday_button').click(function(){
+				$('#thursday_data').slideToggle();
+			})
+
+			$('#thu_summary_bt').click(function(){
+				$('#thu_summary_data').slideToggle();
+			});
+
+			$('#thu_indv_bt').click(function(){
+				$('#thu_indv_entry_div').slideToggle();
+			});
+
+			//End Thursday
+
+			//Begin Friday
+			$('#friday_button').click(function(){
+				$('#friday_data').slideToggle();
+			})
+
+			$('#fri_summary_bt').click(function(){
+				$('#fri_summary_data').slideToggle();
+			});
+
+			$('#fri_indv_bt').click(function(){
+				$('#fri_indv_entry_div').slideToggle();
+			});
+
+			//End Friday
+
+			//Begin Saturday
+			$('#saturday_button').click(function(){
+				$('#saturday_data').slideToggle();
+			});
+
+			$('#sat_summary_bt').click(function(){
+				$('#sat_summary_data').slideToggle();
+			});
+
+			$('#sat_indv_bt').click(function(){
+				$('#sat_indv_entry_div').slideToggle();
+			});
+
+			//End Saturday
+
+			//Begin Sunday
+			$('#sunday_button').click(function(){
+				$('#sunday_data').slideToggle();
+			});
+
+			$('#sun_summary_bt').click(function(){
+				$('#sun_summary_data').slideToggle();
+			});
+
+			$('#sun_indv_bt').click(function(){
+				$('#sun_indv_entry_div').slideToggle();
+			});
+
+			// End Sunday
+
+			$('.edit_toggle0').click(function(){
+				$('.edit_form').slideDown();
+			});
+
+			$('.edit_toggle0').click(function(){
+				$('.edit_form').slideDown();
+				$('#tue_indv_entry_div').animate({
+					scrollTop: $('.edit_form').offset().top-175
+				}, 500);
+				$('#tue_indv_entry_div').css('overflow','hidden');
+			});
+
+			$('.edit_close_bt').click(function(){
+				$('.edit_form').slideUp();
+				$('#tue_indv_entry_div').css('overflow','scroll');
+			});
+		});
+
+	</script>
+</head>
+<body>
+
+	<div id='data_title'>
+		<div id='box_lg'>
+			<h2>ServiceReport</h2>
+		</div>
+	</div>
+
+	<div id='mn_bts'>
+
+	<!--End Header-->
+	<div id='monday_data_bt'>
+		<button id='monday_button'><h2>Monday</h2></button>
+	</div>
+	<!--Begin Monday Data-->
+	<div id='monday_data'>
+		
+	<!--Begin Monday-->
+		<div id='mon_summary_div'>
+
+			<span id='mon_summary_title'>Monday Summary</span>
+
+			<span id='mon_summary_bt'>
+				<button>
+					open
+				</button>
+			</span>
+
+		</div>
+
+		<div id='mon_summary_data'>
+
+			<div id='mn'>
+				<span id='mn_date_txt'>
+					Monday Tip Sum:
+				</span>
+
+				<span id='mn_date_txt2'>
+					<span>$</span><span id='mn_tip_sum'></span>
+				</span>
+			</div>
+
+			<div id='mn'>
+				<span id='mn_date_txt'>
+					Average Tips Per Shift:
+				</span>
+
+				<span id='mn_date_txt2'>
+					<span>$</span><span id='mn_avr_tps'></span>
+				</span>
+			</div>
+
+			<div id='mn'>
+				<span id='mn_date_txt'>
+					Average Shift Length:
+				</span>
+
+				<span id='mn_date_txt2'>
+					<span id='mn_avr_shift'></span><span> Hours</span>
+				</span>
+			</div>
+
+			<div id='mn'>
+				<span id='mn_date_txt'>
+					Average Tips Per Hour:
+				</span>
+
+				<span id='mn_date_txt2'>
+					<span>$</span><span id='mn_avr_tph'></span>
+				</span>
+			</div>
+
+			<div id='mn'>
+				<span id='mn_date_txt'>
+					Average Hourly Wage:
+				</span>
+
+				<span id='mn_date_txt2'>
+					<span>$</span><span id='mn_avr_hourly'></span>
+				</span>
+			</div>
+
+		</div>
+
+		<div id='mon_indv_div'>
+	
+			<span id='mon_indv_title'>Monday Entries</span>
+
+			<span id='mon_indv_bt'>
+				<button>
+					open
+				</button>
+			</span>
+
+		</div>
+
+		<div id='mon_indv_entry_div'>
+			
+		</div>
+
+	</div><!--end monday data-->
+
+	<!--End Monday-->
+
+	<!--Begin Tuesday-->
+	<div id='tuesday_data_bt'>
+		<button id='tuesday_button'><h2>Tuesday</h2></button>
+	</div>
+
+	<div id='tuesday_data'>
+
+		<div id='tue_summary_div'>
+	
+			<span id='tue_summary_title'>Tuesday Summary</span>
+
+			<span id='tue_summary_bt'>
+				<button>
+					open
+				</button>
+			</span>
+
+		</div>
+
+		<div id='tue_summary_data'>
+
+			<div id='td'>
+				<span id='td_date_txt'>
+					Tuesday Tip Sum:
+				</span>
+
+				<span id='td_date_txt2'>
+					<span>$</span><span id='td_tip_sum'></span>
+				</span>
+			</div>
+
+			<div id='td'>
+				<span id='td_date_txt'>
+					Average Tips Per Shift:
+				</span>
+
+				<span id='td_date_txt2'>
+					<span>$</span><span id='td_avr_tps'></span>
+				</span>
+			</div>
+
+			<div id='td'>
+				<span id='td_date_txt'>
+					Average Shift Length:
+				</span>
+
+				<span id='td_date_txt2'>
+					<span id='td_avr_shift'></span><span> Hours</span>
+				</span>
+			</div>
+
+			<div id='td'>
+				<span id='td_date_txt'>
+					Average Tips Per Hour:
+				</span>
+
+				<span id='td_date_txt2'>
+					<span>$</span><span id='td_avr_tph'></span>
+				</span>
+			</div>
+
+			<div id='td'>
+				<span id='td_date_txt'>
+					Average Hourly Wage:
+				</span>
+
+				<span id='td_date_txt2'>
+					<span>$</span><span id='td_avr_hourly'></span>
+				</span>
+			</div>
+
+		</div>
+
+		<div id='tue_indv_div'>
+	
+			<span id='tue_indv_title'>Tuesday Entries</span>
+
+			<span id='tue_indv_bt'>
+				<button>
+				open
+				</button>
+			</span>
+
+		</div>
+
+		<div id='tue_indv_entry_div'>
+			
+		</div>
+
+	</div>
+
+	<!--End Tuesday-->
+
+	<!--Begin Wednesday-->
+	<div id='wednesday_data_bt'>
+		<button id='wednesday_button'><h2>Wednesday</h2></button>
+	</div>
+
+	<div id='wednesday_data'>
+
+		<div id='wed_summary_div'>
+	
+			<span id='wed_summary_title'>Wednesday Summary</span>
+
+			<span id='wed_summary_bt'>
+				<button>
+				open
+				</button>
+			</span>
+
+		</div>
+
+		<div id='wed_summary_data'>
+
+			<div id='wdd'>
+				<span id='wdd_date_txt'>
+					Wednesday Tip Sum:
+				</span>
+
+				<span id='wdd_date_txt2'>
+					<span>$</span><span id='wdd_tip_sum'></span>
+				</span>
+			</div>
+
+			<div id='wdd'>
+				<span id='wdd_date_txt'>
+					Average Tips Per Shift:
+				</span>
+
+				<span id='wdd_date_txt2'>
+					<span>$</span><span id='wdd_avr_tps'></span>
+				</span>
+			</div>
+
+			<div id='wdd'>
+				<span id='wdd_date_txt'>
+					Average Shift Length:
+				</span>
+
+				<span id='wdd_date_txt2'>
+					<span id='wdd_avr_shift'></span><span> Hours</span>
+				</span>
+			</div>
+
+			<div id='wdd'>
+				<span id='wdd_date_txt'>
+					Average Tips Per Hour:
+				</span>
+
+				<span id='wdd_date_txt2'>
+					<span>$</span><span id='wdd_avr_tph'></span>
+				</span>
+			</div>
+
+			<div id='wdd'>
+				<span id='wdd_date_txt'>
+					Average Hourly Wage:
+				</span>
+
+				<span id='wdd_date_txt2'>
+					<span>$</span><span id='wdd_avr_hourly'></span>
+				</span>
+			</div>
+
+		</div>
+
+		<div id='wed_indv_div'>
+	
+			<span id='wed_indv_title'>Wednesday Entries</span>
+
+			<span id='wed_indv_bt'>
+				<button>
+				open
+				</button>
+			</span>
+
+		</div>
+
+		<div id='wed_indv_entry_div'>
+			
+		</div>
+
+	</div>
+
+	<!--End Wednesday-->
+
+	<!--Begin Thursday-->
+	<div id='thursday_data_bt'>
+		<button id='thursday_button'><h2>Thursday</h2></button>
+	</div>
+
+	<div id='thursday_data'>
+
+		<div id='thu_summary_div'>
+	
+			<span id='thu_summary_title'>Thursday Summary</span>
+
+			<span id='thu_summary_bt'>
+				<button>
+				open
+				</button>
+			</span>
+
+		</div>
+
+		<div id='thu_summary_data'>
+
+			<div id='th'>
+				<span id='th_date_txt'>
+					Thursday Tip Sum:
+				</span>
+
+				<span id='th_date_txt2'>
+					<span>$</span><span id='th_tip_sum'></span>
+				</span>
+			</div>
+
+			<div id='th'>
+				<span id='th_date_txt'>
+					Average Tips Per Shift:
+				</span>
+
+				<span id='th_date_txt2'>
+					<span>$</span><span id='th_avr_tps'></span>
+				</span>
+			</div>
+
+			<div id='th'>
+				<span id='th_date_txt'>
+					Average Shift Length:
+				</span>
+
+				<span id='th_date_txt2'>
+					<span id='th_avr_shift'></span><span> Hours</span>
+				</span>
+			</div>
+
+			<div id='th'>
+				<span id='th_date_txt'>
+					Average Tips Per Hour:
+				</span>
+
+				<span id='th_date_txt2'>
+					<span>$</span><span id='th_avr_tph'></span>
+				</span>
+			</div>
+
+			<div id='th'>
+				<span id='th_date_txt'>
+					Average Hourly Wage:
+				</span>
+
+				<span id='th_date_txt2'>
+					<span>$</span><span id='th_avr_hourly'></span>
+				</span>
+			</div>
+
+		</div>
+
+		<div id='thu_indv_div'>
+	
+			<span id='thu_indv_title'>Thursday Entries</span>
+
+			<span id='thu_indv_bt'>
+				<button>
+				open
+				</button>
+			</span>
+
+		</div>
+
+		<div id='thu_indv_entry_div'>
+			
+		</div>
+
+	</div>
+
+	<!--End Thursday-->
+
+	<!--Begin Friday-->
+	<div id='friday_data_bt'>
+		<button id='friday_button'><h2>Friday</h2></button>
+	</div>
+
+	<div id='friday_data'>
+
+		<div id='fri_summary_div'>
+	
+			<span id='fri_summary_title'>Friday Summary</span>
+
+			<span id='fri_summary_bt'>
+				<button>
+				open
+				</button>
+			</span>
+
+		</div>
+
+		<div id='fri_summary_data'>
+
+			<div id='fr'>
+				<span id='fr_date_txt'>
+					Friday Tip Sum:
+				</span>
+
+				<span id='fr_date_txt2'>
+					<span>$</span><span id='fr_tip_sum'></span>
+				</span>
+			</div>
+
+			<div id='fr'>
+				<span id='fr_date_txt'>
+					Average Tips Per Shift:
+				</span>
+
+				<span id='fr_date_txt2'>
+					<span>$</span><span id='fr_avr_tps'></span>
+				</span>
+			</div>
+
+			<div id='fr'>
+				<span id='fr_date_txt'>
+					Average Shift Length:
+				</span>
+
+				<span id='fr_date_txt2'>
+					<span id='fr_avr_shift'></span><span> Hours</span>
+				</span>
+			</div>
+
+			<div id='fr'>
+				<span id='fr_date_txt'>
+					Average Tips Per Hour:
+				</span>
+
+				<span id='fr_date_txt2'>
+					<span>$</span><span id='fr_avr_tph'></span>
+				</span>
+			</div>
+
+			<div id='fr'>
+				<span id='fr_date_txt'>
+					Average Hourly Wage:
+				</span>
+
+				<span id='fr_date_txt2'>
+					<span>$</span><span id='fr_avr_hourly'></span>
+				</span>
+			</div>
+
+		</div>
+
+		<div id='fri_indv_div'>
+	
+			<span id='fri_indv_title'>Friday Entries</span>
+
+			<span id='fri_indv_bt'>
+				<button>
+				open
+				</button>
+			</span>
+
+		</div>
+
+		<div id='fri_indv_entry_div'>
+			
+		</div>
+
+	</div>
+
+	<!--End Friday-->
+
+	<!--Begin Saturday-->
+	<div id='saturday_data_bt'>
+		<button id='saturday_button'><h2>Saturday</h2></button>
+	</div>
+
+	<div id='saturday_data'>
+
+		<div id='sat_summary_div'>
+	
+			<span id='sat_summary_title'>Saturday Summary</span>
+
+			<span id='sat_summary_bt'>
+				<button>
+				open
+				</button>
+			</span>
+
+		</div>
+
+		<div id='sat_summary_data'>
+
+			<div id='sa'>
+				<span id='sa_date_txt'>
+					Saturday Tip Sum:
+				</span>
+
+				<span id='sa_date_txt2'>
+					<span>$</span><span id='sa_tip_sum'></span>
+				</span>
+			</div>
+
+			<div id='sa'>
+				<span id='sa_date_txt'>
+					Average Tips Per Shift:
+				</span>
+
+				<span id='sa_date_txt2'>
+					<span>$</span><span id='sa_avr_tps'></span>
+				</span>
+			</div>
+
+			<div id='sa'>
+				<span id='sa_date_txt'>
+					Average Shift Length:
+				</span>
+
+				<span id='sa_date_txt2'>
+					<span id='sa_avr_shift'></span><span> Hours</span>
+				</span>
+			</div>
+
+			<div id='sa'>
+				<span id='sa_date_txt'>
+					Average Tips Per Hour:
+				</span>
+
+				<span id='sa_date_txt2'>
+					<span>$</span><span id='sa_avr_tph'></span>
+				</span>
+			</div>
+
+			<div id='sa'>
+				<span id='sa_date_txt'>
+					Average Hourly Wage:
+				</span>
+
+				<span id='sa_date_txt2'>
+					<span>$</span><span id='sa_avr_hourly'></span>
+				</span>
+			</div>
+
+		</div>
+
+		<div id='sat_indv_div'>
+	
+			<span id='sat_indv_title'>Saturday Entries</span>
+
+			<span id='sat_indv_bt'>
+				<button>
+				open
+				</button>
+			</span>
+
+		</div>
+
+		<div id='sat_indv_entry_div'>
+			
+		</div>
+
+	</div>
+
+	<!--End Saturday-->
+
+	<!--Begin Sunday-->
+	<div id='sunday_data_bt'>
+		<button id='sunday_button'><h2>Sunday</h2></button>
+	</div>
+
+	<div id='sunday_data'>
+
+		<div id='sun_summary_div'>
+	
+			<span id='sun_summary_title'>Sunday Summary</span>
+
+			<span id='sun_summary_bt'>
+				<button>
+				open
+				</button>
+			</span>
+
+		</div>
+
+		<div id='sun_summary_data'>
+
+			<div id='su'>
+				<span id='su_date_txt'>
+					Sunday Tip Sum:
+				</span>
+
+				<span id='su_date_txt2'>
+					<span>$</span><span id='su_tip_sum'></span>
+				</span>
+			</div>
+
+			<div id='su'>
+				<span id='su_date_txt'>
+					Average Tips Per Shift:
+				</span>
+
+				<span id='su_date_txt2'>
+					<span>$</span><span id='su_avr_tps'></span>
+				</span>
+			</div>
+
+			<div id='su'>
+				<span id='su_date_txt'>
+					Average Shift Length:
+				</span>
+
+				<span id='su_date_txt2'>
+					<span id='su_avr_shift'></span><span> Hours</span>
+				</span>
+			</div>
+
+			<div id='su'>
+				<span id='su_date_txt'>
+					Average Tips Per Hour:
+				</span>
+
+				<span id='su_date_txt2'>
+					<span>$</span><span id='su_avr_tph'></span>
+				</span>
+			</div>
+
+			<div id='su'>
+				<span id='su_date_txt'>
+					Average Hourly Wage:
+				</span>
+
+				<span id='su_date_txt2'>
+					<span>$</span><span id='su_avr_hourly'></span>
+				</span>
+			</div>
+
+		</div>
+
+		<div id='sun_indv_div'>
+	
+			<span id='sun_indv_title'>Sunday Entries</span>
+
+			<span id='sun_indv_bt'>
+				<button>
+				open
+				</button>
+			</span>
+
+		</div>
+
+		<div id='sun_indv_entry_div'>
+			
+		</div>
+
+	</div>
+
+	</div><!--End mn_bts-->
+
+	<!--End Sunday-->
+
+	<div id='btm_dt'>
+
+	<div id='total_title'>
+
+		<h1>Data Summary</h1>
+		<p>Averages & Sums of every entry submitted</p>
+
+	</div>
+
+	<div id='data_compilation'>
+		<div id='total_tipSum'></div>
+		<div id='total_tipAvr'></div>
+		<div id='total_shiftSum'></div>
+		<div id='total_shiftAvr'></div>
+		<div id='most_profit'></div>
+	</div>
+
+	</div><!--End btm_dt-->
+
+	<!--Begin Header-->
+	<div id='header'>
+		
+		<a href='index.html'><div id='entry_home_bt'><button><h2>
+		Submit New Entry</h2></button></div></a>
+
+		<a href='mobileCalc2_custom.html'><div id='data_custom_bt'><button><h2>Custom Entry</h2></button></div></a>
+
+		<div id='clear'><button id='clear_bt'><h2>Clear Storage</h2></button></div>
+
+	</div>
+
+	<div id='footer'>
+		Luke Scheller 2018
+	</div>
+
+	<script src='js/mobileCalc2_mon_js.js'></script>
+	<script src='js/mobileCalc2_tue_js.js'></script>
+	<script src='js/mobileCalc2_wed_js.js'></script>
+	<script src='js/mobileCalc2_thu_js.js'></script>
+	<script src='js/mobileCalc2_fri_js.js'></script>
+	<script src='js/mobileCalc2_sat_js.js'></script>
+	<script src='js/mobileCalc2_sun_js.js'></script>
+	<script src='js/mobileCalc2_data.js'></script>
+	<!-- <script src='js/display.js'></script> -->
+
+</body>
+</html>

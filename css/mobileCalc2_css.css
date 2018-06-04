@@ -1,0 +1,1091 @@
+/*Begin Data & Other*/
+
+* {
+	/*border-radius:5px;*/
+	font-family:sans-serif;
+}
+
+html {
+	/*background-image: url('../img/restaurant11.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
+#header {
+	border:1px solid none;
+	margin:5px;
+	padding:5px;
+	border-radius:5px;
+/*	background-color:#ffc69e;*/
+	/*background-image:url(../img/granite.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;*/
+}
+
+#header a {
+	text-decoration:none;
+}
+
+#mn_bts {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+	border-radius:5px;
+/*	background-color:#ffc69e;*/
+/*	background-image:url(../img/rock5.jpg);
+	background-repeat:no-repeat;*/
+	background-size:cover;
+}
+
+#btm_dt {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+	border-radius:5px;
+	background-image:url('../img/note.jpg');
+	opacity:0.8;
+	background-repeat:no-repeat;
+	background-position:0px;
+	background-size:cover;
+	font-style:italic;
+}
+
+.right {
+	float:right;
+}
+
+#clear {
+	border:1px solid none;
+	margin:5px;
+	padding:5px;
+}
+
+#clear button {
+	background-image:url('../img/food3.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	display:flex;
+	justify-content:center;
+}
+
+#clear button h2 {
+	background-color:black;
+	color:white;
+	font-style:italic;
+	width:65%;
+	padding:5px;
+}
+
+
+
+#clear_bt {
+	width:100%;
+	padding:10px;
+	border-radius:5px;
+}
+
+
+
+#data_div {
+	border:1px solid none;
+	margin:0px auto;
+	padding:5px;
+}
+
+#data_title {
+	border:1px solid white;
+	border-radius:5px;
+	margin:5px;
+	font-style:italic;
+	background-image:url('../img/money.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#data_title h2 {
+	margin:0px auto;
+	margin-top:12.5px;
+	margin-bottom:12.5px;
+	padding:11px;
+	text-align:center;
+	color:white;
+	background-color:#d62300;
+	width:200px;
+}
+
+#banner {
+	width:100%;
+	height:165px;
+	border-radius:5px;
+}
+
+#data_custom_bt {
+	border:1px solid none;
+	margin:5px;
+	padding:5px;
+}
+
+#data_custom_bt button {
+	width:100%;
+	padding:10px;
+	border-radius:5px;
+	background-image:url('../img/food2.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	display:flex;
+	justify-content:center;
+}
+
+#data_custom_bt button h2 {
+	background-color:black;
+	width:65%;
+	color:white;
+	font-style:italic;
+	padding:5px;
+}
+
+#data_custom_bt a {
+	text-decoration:none;
+	color:black;
+}
+
+#data_custom_bt a:visited {
+	text-decoration:none;
+	color:black;
+}
+
+#total_title {
+	border:1px solid none;
+	margin:5px;
+	padding:5px;
+	text-align:center;
+	border-radius:5px;
+	font-size:12px;
+}
+
+#entry_home_bt {
+	border:1px solid none;
+	margin:5px;
+	padding:5px;
+}
+
+#entry_home_bt button {
+	width:100%;
+	padding:10px;
+	border-radius:5px;
+	background-image:url('../img/food.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	display:flex;
+	justify-content:center;
+}
+
+#entry_home_bt button h2 {
+	background-color:black;
+	color:white;
+	font-style:italic;
+	width:65%;
+	padding:5px;
+}
+
+
+
+#entry_home_bt a {
+	text-decoration:none;
+	color:black;
+}
+
+#entry_home_bt a:visited {
+	text-decoration:none;
+	color:black;
+}
+
+#line1 {
+	border:1px solid black;
+	width:2em;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+
+#line2 {
+	border:1px solid black;
+	width:2em;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+
+#line3 {
+	border:1px solid black;
+	width:2em;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+.font {
+	font-size:16px;
+	border:1px solid black;
+	margin:5px;
+}
+
+.key {
+	border:1px solid black;
+}
+
+.value {
+	border:1px solid black;
+}
+
+.flex {
+
+}
+
+/*End Data & Other
+
+/*Begin Monday*/
+#monday_data {
+	border:1px solid none;
+	display:none;
+}
+
+#monday_data_bt {
+	border:1px solid none;
+	margin:5px;
+	padding:5px;
+	text-align:center;
+	border-radius:5px;
+}
+
+#monday_data_bt button {
+	width:100%;
+	border-radius:5px;
+	background-image:url('../img/euro.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	display:flex;
+	justify-content:center;
+}
+
+#monday_data_bt button h2 {
+	background-color:black;
+	color:white;
+	font-style:italic;
+	width:40%;
+	padding:5px;
+}
+
+#mon_summary_div {
+	border:1px solid none;
+	border-radius:5px;
+	background-color:white;
+	margin:5px;
+	padding:5px;
+}
+
+#mon_summary_cancel {
+	border:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+
+#mon_summary_cancel button {
+	width:100%;
+}
+
+#mon_summary_title {
+	/*border:1px solid black;*/
+}
+
+#mon_summary_bt {
+	float:right;
+}
+
+#mon_summary_bt_cl {
+	float:right;
+}
+
+#mon_summary_bt button {
+	width:100%;
+	height:20px;
+}
+
+#mon_summary_data {
+	border:1px solid none;
+	border-radius:5px;
+	background-color:white;
+	margin:5px;
+	padding:5px;
+	display: none;
+}
+
+#mon_indv_title {
+/*	border:1px solid black;*/
+}
+
+#mon_indv_div {
+	border:1px solid none;
+	background-color:white;
+	border-radius:5px;
+	margin:5px;
+	padding:5px;
+}
+
+#mon_indv_bt {
+	float:right;
+}
+
+#mon_indv_bt_cl {
+	float:right;
+}
+
+#mon_indv_entry_div {
+	border:1px solid black;
+	margin:5px;
+	padding:5px;
+	height:290px;
+	max-height:300px;
+	overflow-y:scroll;
+	display:none;
+}
+
+#mn {
+	border-bottom:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+
+#mn_date_txt {
+	border:1px solid white;
+}
+
+#mn_date_txt2 {
+	border:1px solid white;
+	float:right;
+}
+
+/*End Monday*/
+
+/*Begin Tuesday*/
+
+#tuesday_data {
+	border:1px solid white;
+	display:none;
+}
+
+#tuesday_data_bt {
+	border:1px solid none;
+	margin:5px;
+	padding:5px;
+}
+
+#tuesday_data_bt button {
+	width:100%;
+	border-radius:5px;
+	background-image:url('../img/swiss.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	display:flex;
+	justify-content:center;
+}
+
+#tuesday_data_bt button h2 {
+	background-color:coral;
+	width:40%;
+	padding:5px;
+	color:white;
+	font-style:italic;
+}
+
+#tue_summary_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+}
+
+#tue_summary_title {
+	/*border:1px solid black;*/
+}
+
+#tue_summary_bt {
+	float:right;
+}
+
+#tue_summary_bt_cl {
+	float:right;
+}
+
+#tue_summary_bt button {
+	width:100%;
+	height:20px;
+}
+
+#tue_summary_data {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+	display: none;
+}
+
+#td {
+	border-bottom:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+
+#td_date_txt {
+	border:1px solid white;
+}
+
+#td_date_txt2 {
+	border:1px solid white;
+	float:right;
+}
+
+#tue_indv_title {
+/*	border:1px solid black;*/
+}
+
+#tue_indv_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+}
+
+#tue_indv_bt {
+	float:right;
+}
+
+#tue_indv_bt_cl {
+	float:right;
+}
+
+#tue_indv_entry_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+	height:290px;
+	max-height:300px;
+	overflow-y:scroll;
+	display:none;
+}
+
+#tue_summary_cancel {
+	border:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+
+#tue_summary_cancel button {
+	width:100%;
+}
+
+/*End Tuesday*/
+
+/*Begin Wednesday*/
+#wednesday_data {
+	border:1px solid white;
+	display:none;
+}
+
+#wednesday_data_bt {
+	border:1px solid none;
+	margin:5px;
+	padding:5px;
+}
+
+#wednesday_data_bt button {
+	width:100%;
+	border-radius:5px;
+	background-image:url('../img/korean.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	display:flex;
+	justify-content:center;
+}
+
+#wednesday_data_bt button h2 {
+	background-color:#00cfd6;
+	padding:5px;
+	font-style:italic;
+	color:white;
+	width:40%;
+}
+
+#wed_summary_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+}
+
+#wed_summary_title {
+	/*border:1px solid black;*/
+}
+
+#wed_summary_bt {
+	float:right;
+}
+
+#wed_summary_bt_cl {
+	float:right;
+}
+
+#wed_summary_bt button {
+	width:100%;
+	height:20px;
+}
+
+#wed_summary_data {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+	display: none;
+}
+
+#wdd {
+	border-bottom:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+
+#wdd_date_txt {
+	border:1px solid white;
+}
+
+#wdd_date_txt2 {
+	border:1px solid white;
+	float:right;
+}
+
+#wed_indv_title {
+/*	border:1px solid black;*/
+}
+
+#wed_indv_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+}
+
+#wed_indv_bt {
+	float:right;
+}
+
+#wed_indv_bt_cl {
+	float:right;
+}
+
+#wed_indv_entry_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+	height:290px;
+	max-height:300px;
+	overflow-y:scroll;
+	display:none;
+}
+
+#wed_summary_cancel {
+	border:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+
+#wed_summary_cancel button {
+	width:100%;
+}
+
+/*End Wednesday*/
+
+/*Begin Thursday*/
+#thursday_data {
+	border:1px solid white;
+	display:none;
+}
+
+#thursday_data_bt {
+	border:1px solid none;
+	margin:5px;
+	padding:5px;
+}
+
+#thursday_data_bt button {
+	width:100%;
+	border-radius:5px;
+	background-image:url('../img/peso.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	display:flex;
+	justify-content:center;
+}
+
+#thursday_data_bt button h2 {
+	background-color:#91001f;
+	padding:5px;
+	color:white;
+	font-style:italic;
+	width:40%;
+}
+
+#thu_summary_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+}
+
+#thu_summary_title {
+	/*border:1px solid black;*/
+}
+
+#thu_summary_bt {
+	float:right;
+}
+
+#thu_summary_bt_cl {
+	float:right;
+}
+
+#thu_summary_bt button {
+	width:100%;
+	height:20px;
+}
+
+#thu_summary_data {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+	display: none;
+}
+
+#th {
+	border-bottom:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+
+#th_date_txt {
+	border:1px solid white;
+}
+
+#th_date_txt2 {
+	border:1px solid white;
+	float:right;
+}
+
+#thu_indv_title {
+/*	border:1px solid black;*/
+}
+
+#thu_indv_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+}
+
+#thu_indv_bt {
+	float:right;
+}
+
+#thu_indv_bt_cl {
+	float:right;
+}
+
+#thu_indv_entry_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+	height:290px;
+	max-height:300px;
+	overflow-y:scroll;
+	display:none;
+}
+
+#thu_summary_cancel {
+	border:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+
+#thu_summary_cancel button {
+	width:100%;
+	border-radius:5px;
+}
+
+/*End Thursday*/
+
+/*Begin Friday*/
+
+#friday_data {
+	border:1px solid white;
+	display:none;
+}
+
+#friday_data_bt {
+	border:1px solid none;
+	margin:5px;
+	padding:5px;
+}
+
+#friday_data_bt button {
+	width:100%;
+	border-radius:5px;
+	background-image:url('../img/english.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	display:flex;
+	justify-content:center;
+}
+
+#friday_data_bt button h2 {
+	width:40%;
+	background-color:#ffcc35;
+	padding:5px;
+	color:white;
+	font-style:italic;
+}
+
+#fri_summary_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+}
+
+#fri_summary_title {
+	/*border:1px solid black;*/
+}
+
+#fri_summary_bt {
+	float:right;
+}
+
+#fri_summary_bt_cl {
+	float:right;
+}
+
+#fri_summary_bt button {
+	width:100%;
+	height:20px;
+}
+
+#fri_summary_data {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+	display: none;
+}
+
+#fr {
+	border-bottom:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+
+#fr_date_txt {
+	border:1px solid white;
+}
+
+#fr_date_txt2 {
+	border:1px solid white;
+	float:right;
+}
+
+#fri_indv_title {
+/*	border:1px solid black;*/
+}
+
+#fri_indv_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+}
+
+#fri_indv_bt {
+	float:right;
+}
+
+#fri_indv_bt_cl {
+	float:right;
+}
+
+#fri_indv_entry_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+	height:290px;
+	max-height:300px;
+	overflow-y:scroll;
+	display:none;
+}
+
+#fri_summary_cancel {
+	border:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+
+#fri_summary_cancel button {
+	width:100%;
+}
+
+/*End Friday*/
+
+/*Begin Saturday*/
+#saturday_data {
+	border:1px solid white;
+	display:none;
+}
+
+#saturday_data_bt {
+	border:1px solid none;
+	padding:5px;
+	margin:5px;
+}
+
+#saturday_data_bt button {
+	width:100%;
+	border-radius:5px;
+	background-image:url('../img/thai.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	display:flex;
+	justify-content:center;
+}
+
+#saturday_data_bt button h2 {
+	background-color:#9d70ff;
+	width:40%;
+	padding:5px;
+	color:white;
+	font-style:italic;
+}
+
+#sat_summary_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+}
+
+#sat_summary_title {
+	/*border:1px solid black;*/
+}
+
+#sat_summary_bt {
+	float:right;
+}
+
+#sat_summary_bt_cl {
+	float:right;
+}
+
+#sat_summary_bt button {
+	width:100%;
+	height:20px;
+}
+
+#sat_summary_data {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+	display: none;
+}
+
+#sa {
+	border-bottom:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+
+#sa_date_txt {
+	border:1px solid white;
+}
+
+#sa_date_txt2 {
+	border:1px solid white;
+	float:right;
+}
+
+#sat_indv_title {
+/*	border:1px solid black;*/
+}
+
+#sat_indv_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+}
+
+#sat_indv_bt {
+	float:right;
+}
+
+#sat_indv_bt_cl {
+	float:right;
+}
+
+#sat_indv_entry_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+	height:290px;
+	max-height:300px;
+	overflow-y:scroll;
+	display:none;
+}
+
+#sat_summary_cancel {
+	border:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+
+#sat_summary_cancel button {
+	width:100%;
+}
+
+/*End Saturday*/
+
+/*Begin Sunday*/
+#sunday_data {
+	border:1px solid white;
+	display:none;
+}
+
+#sunday_data_bt {
+	border:1px solid none;
+	margin:5px;
+	padding:5px;
+}
+
+#sunday_data_bt button {
+	width:100%;
+	border-radius:5px;
+	background-image:url('../img/africa.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	display:flex;
+	justify-content:center;
+}
+
+#sunday_data_bt button h2 {
+	background-color:#008912;
+	padding:5px;
+	width:40%;
+	color:white;
+	font-style:italic;
+}
+
+#sun_summary_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+}
+
+#sun_summary_title {
+	/*border:1px solid black;*/
+}
+
+#sun_summary_bt {
+	float:right;
+}
+
+#sun_summary_bt_cl {
+	float:right;
+}
+
+#sun_summary_bt button {
+	width:100%;
+	height:20px;
+}
+
+#sun_summary_data {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+	display: none;
+}
+
+#su {
+	border-bottom:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+
+#su_date_txt {
+	border:1px solid white;
+}
+
+#su_date_txt2 {
+	border:1px solid white;
+	float:right;
+}
+
+#sun_indv_title {
+/*	border:1px solid black;*/
+}
+
+#sun_indv_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+}
+
+#sun_indv_bt {
+	float:right;
+}
+
+#sun_indv_bt_cl {
+	float:right;
+}
+
+#sun_indv_entry_div {
+	border:1px solid white;
+	margin:5px;
+	padding:5px;
+	height:290px;
+	max-height:300px;
+	overflow-y:scroll;
+	display:none;
+}
+
+#sun_summary_cancel {
+	border:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+
+#sun_summary_cancel button {
+	width:100%;
+}
+
+/*End Sunday*/
+
+#data_compilation {
+	border:1px solid none;
+	margin:5px;
+	padding:5px;
+}
+
+#total_tipSum, #total_tipAvr,#total_shiftSum,#total_shiftAvr,#most_profit {
+	border-bottom:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+
+#footer {
+	text-align:center;
+	border:1px solid none;
+	position:relative;
+	top:50px;
+	font-size:10px;
+	margin:5px;
+	padding:5px;
+}
+
+
+
+
+
+
+
+
+

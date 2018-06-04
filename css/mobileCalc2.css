@@ -1,0 +1,315 @@
+* {
+	font-family:sans-serif;
+/*	border-radius:5px;*/
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: lighter;
+}
+
+html {
+	background-image: url('../img/restaurant4.jpg');
+	background-position: -115px;
+/*	background-size:cover;*/
+	background-size: 775px 700px;
+	background-repeat: no-repeat;
+}
+
+#cc0, #cc1,#cc2,#cc3,#cc4,#cc5 {
+	height: 15px;
+ 	width: 15px;
+  	background-color: #bbb;
+  	border-radius: 50%;
+  	display: inline-block;
+	position:relative;
+	left:5px;
+	top:3.5px;
+  	font-size:10px;
+}
+
+#border {
+	border:1px solid none;
+	padding:5px;
+}
+
+#submit_title {
+	border:1px solid none;
+	text-align:center;
+	margin-bottom:5px;
+}
+
+#submit_div {
+	margin:0px auto;
+	border:1px solid #ffc69e;
+	background-color:#ffc69e;
+	width:85%;
+	border-radius:10px;
+
+	/*background-image: url('https://image.freepik.com/free-photo/empty-wooden-table-for-present-product-on-coffee-shop-or-soft-drink-bar-blur-background-with-bokeh-image-xd_1421-738.jpg');*/
+
+	/*background-image: url('https://media.gettyimages.com/photos/blur-dark-bar-or-cafe-at-night-picture-id539199982?b=1&k=6&m=539199982&s=612x612&w=0&h=3MobHyVKfXASnEPV3fhdA6U1rA6N_HmIJZCV3TzCBqU=');*/	
+
+	/*background-image: url('https://image.shutterstock.com/image-photo/blur-top-wood-table-pub-260nw-539877697.jpg');*/
+
+	/*background-image: url('http://backgroundcheckall.com/wp-content/uploads/2017/12/restaurant-background-images-6.jpg');*/	
+
+	/*background-image: url('../img/restaurant.jpg');*/
+	
+}
+
+#submit_tips {
+	border:1px solid none;
+	border-bottom:1px solid black;
+	padding:5px;
+	margin:5px;
+	text-align:center;
+}
+
+#submit_clockIn {
+	border:1px solid none;
+	border-bottom:1px solid black;
+	padding:5px;
+	margin:5px;
+	text-align:center;
+}
+
+#submit_tips_dollar,#submit_hourly_dollar {
+	width:100px;
+}
+
+#overnight {
+	border:1px solid none;
+	border-bottom:1px solid black;
+	padding:5px;
+	margin:5px;
+	text-align:center;
+}
+
+#submit_clockOut {
+	border:1px solid none;
+	border-bottom:1px solid black;
+	padding:5px;
+	margin:5px;
+	text-align:center;
+}
+
+#submit_hourly {
+	border:1px solid none;
+	border-bottom:1px solid black;
+	padding:5px;
+	margin:5px;
+	text-align:center;
+}
+
+#submit_comments {
+	border:1px solid none;
+	border-bottom:1px solid black;
+	padding:5px;
+	margin:5px;
+	text-align:center;
+}
+
+#submit_comment {
+	resize:none;
+	width:35%;
+	height:100px;
+}
+
+#submit_bt {
+	width:200px;
+	text-align:center;
+}
+
+#sb_cm {
+	position:relative;
+	bottom:50px;
+	margin-right:10px;
+}
+
+#submit_bt_div {
+	border:1px solid none;
+	padding:5px;
+	margin:5px;
+	text-align:center;
+}
+
+#custom_bt_div {
+	border:1px solid none;
+	padding:5px;
+	margin:5px;
+	text-align:center;
+}
+
+#custom_bt {
+	width:200px;
+}
+
+#custom_bt a {
+	text-decoration:none;
+	color:black;
+}
+
+#custom_bt a:visited {
+	text-decoration:none;
+	color:blue;
+}
+
+#data_bt {
+	width:200px;
+}
+
+#data_bt_div {
+	border:1px solid none;
+	padding:5px;
+	margin:5px;
+	text-align:center;
+}
+
+#data_bt a {
+	text-decoration:none;
+	color:black;
+}
+
+#data_bt a:visited {
+	text-decoration:none;
+	color:black;
+}
+
+#tips_alert,#clockIn_alert,#yesno_alert,#clockOut_alert,#hourlywage_alert {
+	color:red;
+	display:none;
+}
+
+#center {
+	margin-bottom:37.5px;
+}
+
+/* END SUBMIT CSS */
+
+#custom_title {
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+#custom_time {
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+#custom_entry_div {
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+	display:none;
+}
+
+#custom_date {
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+#custom_tips {
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+#custom_clockIn {
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+#custom_overnight {
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+#custom_clockOut {
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+#custom_hourly {
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+#custom_comments_div {
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+#custom_comment {
+	resize:none;
+	width:35%;
+	height:100px;
+}
+
+#custom_submit {
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+#custom_cancel {
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+/* END CUSTOM ENTRY CSS */
+
+#data_div {
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+/* END DATA DIV */
+
+#compilation_div {
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+
+/* END COMPILATION DIV */
+
+#footer {
+	border:1px solid none;
+	margin:5px;
+	padding:5px;
+	text-align:center;
+	font-size:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
